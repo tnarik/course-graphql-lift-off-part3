@@ -4,6 +4,26 @@ Welcome to the companion app of Odyssey Lift-off III! You can [find the course l
 
 You can [preview the completed demo app here](https://lift-off-client-demo.netlify.app/).
 
+
+> **Note**
+>
+> The original repo is [here](https://github.com/apollographql/odyssey-lift-off-part3), and it might have been updated since following the course.
+>
+> To keep it up to date:
+> ```
+> git remote add upstream https://github.com/apollographql/odyssey-lift-off-part3
+> git fetch upstream
+> git diff main..upstream/main --name-only # shows files that diverge
+> git pull --rebase upstream main
+> git push -f
+> ```
+>
+> I like creating a branch before this rebases, so that I can understand (perhaps more easily) the delta. I name them as `solution_<YYYY><MM><DD>`. This is because this repo is not a "fork", but an implementation/solution on top of the course.
+>
+> Additional updates would merit additional branches, which are then merged on top of "main"
+>
+
+
 ## How to use this repo
 
 The course will walk you step by step on how to implement the features you see in the demo app. This codebase is the starting point of your journey!
